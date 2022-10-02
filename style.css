@@ -1,0 +1,58 @@
+body{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+}
+.body{
+    
+    background:linear-gradient(rgba(50, 196, 188, 0.856),rgb(22, 131, 158)) ;
+background-blend-mode: overlay, overlay, exclusion, normal;
+    border-radius: 8px;
+width: 230px;
+box-shadow: 8px 11px rgba(0, 0, 0, 0.103);
+
+}
+.flag{
+    padding: 12px;
+}
+.img{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 185px;
+
+}
+
+
+.contant{
+    text-align: center ;
+   padding: 12px;
+   font-weight: bold;
+   font-size: 16px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   
+}
+.map{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:5px ;
+    border: 2px solid white;
+}
+.name{
+    font-weight: bolder;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 11px;
+    font-family:serif;
+}
+
+#weath{
+    display: none;
+}
